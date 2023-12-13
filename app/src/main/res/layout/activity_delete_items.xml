@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".deleteItemsActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="20dp"
+        android:text="Delete Items"
+        android:textColor="#DF9F66 "
+        android:textSize="45dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <EditText
+        android:id="@+id/barcodedelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="302dp"
+        android:layout_toEndOf="@+id/textView3"
+        android:ems="10"
+        android:hint="Enter Number"
+        android:inputType="textPersonName"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="310dp"
+        android:text="Item to Delete:"
+        android:textColor="#5AF737 "
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonscandelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="385dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Scan Bar/QR Code"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <Button
+        android:id="@+id/deleteItemToTheDatabasebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonscandelete"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginBottom="-70dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Delete Item"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+</RelativeLayout>

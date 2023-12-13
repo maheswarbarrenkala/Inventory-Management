@@ -1,0 +1,28 @@
+<!-- Replace with your root layout (e.g., ConstraintLayout, LinearLayout, etc.) -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/itemNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Name" />
+
+    <TextView
+        android:id="@+id/itemCategoryTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Category" />
+
+    <TextView
+        android:id="@+id/itemPriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Price" />
+
+    <!-- Add any additional views or layout elements as needed -->
+
+</LinearLayout>
